@@ -4,9 +4,9 @@ import React from "react";
 import Content, { HTMLContent } from "../components/Content";
 import Layout from "../components/Layout";
 
-export const About2PageTemplate = ({ title, content, contentComponent }) => {
+export const PrivacyPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-  console.log(title);
+
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -25,18 +25,18 @@ export const About2PageTemplate = ({ title, content, contentComponent }) => {
   );
 };
 
-About2PageTemplate.propTypes = {
+PrivacyPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func
 };
 
-const About2Page = ({ data }) => {
+const PrivacyPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <About2PageTemplate
+      <PrivacyPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -45,14 +45,14 @@ const About2Page = ({ data }) => {
   );
 };
 
-About2Page.propTypes = {
+PrivacyPage.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default About2Page;
+export default PrivacyPage;
 
-export const about2PageQuery = graphql`
-  query About2Page($id: String!) {
+export const privacyPageQuery = graphql`
+  query PrivacyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
