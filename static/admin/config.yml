@@ -144,7 +144,6 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: Description, name: description, widget: string }
       - file: "src/pages/support/index.md"
         label: "Support"
         name: "support"
