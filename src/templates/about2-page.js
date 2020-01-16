@@ -4,7 +4,7 @@ import React from 'react'
 import Content, { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const About2PageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -25,18 +25,18 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+About2PageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const About2Page = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <About2PageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -45,14 +45,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+About2Page.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default About2Page
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const about2PageQuery = graphql`
+  query About2Page($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
