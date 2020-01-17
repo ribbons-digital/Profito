@@ -42,7 +42,7 @@ const Footer = class extends React.Component {
               <div className="column is-4">
               </div>
               <div className="column is-4 social">
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://twitter.com/Profito7">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -51,6 +51,9 @@ const Footer = class extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div style={{ paddingBottom: '1em' }}>
+              © 2020 Ribbons Digital Pty Ltd. All rights reserved.
             </div>
           </div>
         </div>
