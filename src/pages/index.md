@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: 'Profit: Top Priority of any successful business'
+title: 'Profit: #1 Priority of any businesses'
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Profito has got your back!
