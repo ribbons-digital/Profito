@@ -22,7 +22,7 @@ intro:
     - image: /img/Simulator Screen Shot - iPhone 8 - 2020-01-14 at 09.32.52.png
       text: |
         Just a few simple questions
-    - image: /img/Simulator Screen Shot - iPhone 8 - 2020-01-14 at 09.33.26.png
+    - image: /img/Simulator Screen Shot - iPhone 8 - 2020-01-17 at 15.22.08.png
       text: |
         Get live currency rate against USD
     - image: /img/Simulator Screen Shot - iPhone 8 - 2020-01-14 at 09.36.36.png
