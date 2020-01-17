@@ -1,24 +1,22 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 'Profit: #1 Priority of any businesses'
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Profito has got your back!
 mainpitch:
-  title: Why Kaldi
+  title: What is Profito
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    A tool that helps you stay in profit by getting the right answers to the key
+    questions that are crucial for your business.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Profito helps you calculate the gross profit of an existing product you are
+  selling or determine the suggested cost (FOB price) of a new product you plan
+  to sell in the future. It achieves it by asking a few questions about your
+  business such as your current pricing strategy and distribution channels.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/Simulator Screen Shot - iPhone 11 Pro - 2020-01-14 at 09.28.08.png
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
@@ -68,3 +66,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
